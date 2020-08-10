@@ -1,0 +1,50 @@
+// Place all the styles related to the Answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: grey;
+    &:hover {
+      color: black;
+    }
+  }
+
+
+ #question {
+     margin: 10px;
+     padding: 10px;
+     background-color: white;
+     border-left : 3px solid grey;
+     width: 100%;
+     text-align: start;
+ }
+
+ #answer {
+     margin: 10px;
+     padding: 10px;
+     background-color: rgb(255, 210, 205);;
+     border-left : 3px solid grey;
+     width: 100%;
+     text-align: start;
+ }
+
+
+ .container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
